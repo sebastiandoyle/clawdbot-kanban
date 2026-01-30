@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kanban Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📋 Projects</h1>
+    <div class="status" id="status">Loading...</div>
+  </header>
+  
+  <main id="board" class="board">
+    <!-- Columns rendered by JS -->
+  </main>
+  
+  <div class="add-task-bar">
+    <input type="text" id="newTaskInput" placeholder="Add a new task..." />
+    <button id="addTaskBtn">+ Add to Backlog</button>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
